@@ -1,0 +1,69 @@
+.About {
+	text-align: center;
+	background-color: rgb(15, 25, 43);
+	height: 100vh;
+	width: 100vw;
+	top: 0;
+	left: 0;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	color: rgb(240, 234, 255);
+}
+
+.name-is {
+	color: rgb(92, 184, 184);
+}
+
+.build-things {
+	color: rgb(165, 183, 202);
+	font-size: 80px;
+}
+
+.name {
+	color: rgb(240, 234, 255);
+	font-size: 80px;
+}
+
+.bio {
+	color: rgb(165, 183, 202);
+	width: 50%;
+	letter-spacing: 0.5px;
+	line-height: 1.4em;
+}
+
+.app-body {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.bio-container {
+	height: 50%;
+	width: 80%;
+	text-align: left;
+	position: absolute;
+	right: 0;
+}
+
+.touch-btn {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: 1px solid rgb(52, 219, 219);
+	width: 140px;
+	height: 55px;
+	border-radius: 5%;
+	cursor: pointer;
+	overflow: hidden;
+	outline: none;
+	color: rgb(52, 219, 219);
+	font-weight: 800;
+	margin-top: 5%;
+	font-size: 15px;
+}

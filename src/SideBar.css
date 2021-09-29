@@ -1,0 +1,16 @@
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	width: 5%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.icon {
+	padding: 0.5em;
+	font-size: 25px;
+	color: rgb(165, 183, 202);
+}
