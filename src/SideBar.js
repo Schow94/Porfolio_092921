@@ -11,13 +11,21 @@ const SideBar = () => {
 	return (
 		<ul className="sidebar">
 			<li className="icon">
-				<ImGithub />
+				<a href="https://github.com/Schow94">
+					<ImGithub />
+				</a>
 			</li>
 			<li className="icon">
-				<ImLinkedin2 />
+				<a
+					href="https://www.linkedin.com/in/stephen-chow-938b3b11b/"
+					target="blank">
+					<ImLinkedin2 />
+				</a>
 			</li>
 			<li className="icon">
-				<SiInstagram />
+				<a href="https://www.instagram.com/thech0w/">
+					<SiInstagram />
+				</a>
 			</li>
 			<li className="icon">
 				<SiGmail />

@@ -28,7 +28,7 @@ const data = [
 		name: "Calculator",
 		image: "https://schow94.github.io/Portfolio_new/image_calculator.png",
 		link: "https://schow94.github.io/calculator-react/",
-		description: "React Native Todo List",
+		description: "Calculator",
 		lanuages: ["Javascript"],
 	},
 
@@ -36,7 +36,7 @@ const data = [
 		name: "Survey",
 		image: "https://schow94.github.io/Portfolio_new/image_emaily.png",
 		link: "https://warm-thicket-82476.herokuapp.com/",
-		description: "React Native Todo List",
+		description: "Web App for bulk creating/sending surveys",
 		lanuages: ["React Native", "Expo"],
 	},
 
@@ -60,7 +60,7 @@ const Projects = () => {
 		<div className="About">
 			<NavBar />
 
-			<div className="app-body">
+			<div className="project-body">
 				<SideBar />
 
 				<div className="projects-container">

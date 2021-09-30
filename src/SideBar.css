@@ -14,3 +14,12 @@
 	font-size: 25px;
 	color: rgb(165, 183, 202);
 }
+
+.icon a {
+	text-decoration: none;
+	color: rgb(165, 183, 202);
+}
+
+.icon a:hover {
+	color: rgb(92, 184, 184);
+}

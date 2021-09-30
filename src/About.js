@@ -13,10 +13,10 @@ const About = () => {
 		<div className="About">
 			<NavBar />
 
-			<div className="app-body">
+			<div className="about-body">
 				<SideBar />
 
-				<div className="bio-container">
+				<div className="about-container">
 					<h1 className="name-is">About...</h1>
 					<h1 className="name">ME</h1>
 					<h1 className="build-things">I build things with code</h1>

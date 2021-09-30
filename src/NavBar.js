@@ -36,7 +36,9 @@ const NavBar = () => {
 					</Link>
 				</li>
 				<li>
-					<button className="resume-btn">Resume</button>
+					<a href="./Resume.pdf" download="Resume.pdf">
+						<button className="resume-btn">Resume</button>
+					</a>
 				</li>
 			</ul>
 		</div>
