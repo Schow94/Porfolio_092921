@@ -7,8 +7,8 @@
 
 .nav-container {
 	width: 100%;
-	/* background-color: blue; */
-	height: 7%;
+	background-color: blue;
+	height: 60px;
 	top: 0;
 	margin: 0;
 	padding: 0;

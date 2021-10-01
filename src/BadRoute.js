@@ -15,10 +15,10 @@ const Home = () => {
 			<div className="noMatch-body">
 				<SideBar />
 				<div className="noMatch-container">
-					<h1 className="name-is">Sorry,</h1>
-					<h1 className="name">
+					<h1 className="sorry">Sorry,</h1>
+					<h1 className="dne">
 						This page does not exist
-						<span className="code-icon">
+						<span className="nm-code-icon">
 							<FaCode />
 						</span>
 					</h1>

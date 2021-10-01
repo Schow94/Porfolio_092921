@@ -148,7 +148,7 @@ const data = [
 	},
 	{
 		name: "Tinder Clone",
-		image: "./tinder.png",
+		image: "./Tinder.png",
 		link: "",
 		description: "Tinder Clone built with React Native",
 		lanuages: ["React Native", "Expo"],

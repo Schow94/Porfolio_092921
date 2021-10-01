@@ -22,27 +22,6 @@
 	justify-content: center;
 }
 
-.name-is {
-	color: rgb(92, 184, 184);
-}
-
-.build-things {
-	color: rgb(165, 183, 202);
-	font-size: 80px;
-}
-
-.name {
-	color: rgb(240, 234, 255);
-	font-size: 80px;
-}
-
-.bio {
-	color: rgb(165, 183, 202);
-	width: 50%;
-	letter-spacing: 0.5px;
-	line-height: 1.4em;
-}
-
 .projects-container {
 	/* height: 100%; */
 	margin-top: 5%;

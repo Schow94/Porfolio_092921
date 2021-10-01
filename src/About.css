@@ -1,4 +1,4 @@
-.About {
+/* .About {
 	text-align: center;
 	background-color: rgb(15, 25, 43);
 	height: 100vh;
@@ -16,6 +16,7 @@
 
 .name-is {
 	color: rgb(92, 184, 184);
+	/* background-color: red; */
 }
 
 .build-things {
@@ -66,4 +67,4 @@
 	font-weight: 800;
 	margin-top: 5%;
 	font-size: 15px;
-}
+} */

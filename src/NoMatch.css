@@ -14,25 +14,13 @@
 	color: rgb(240, 234, 255);
 }
 
-.name-is {
+.sorry {
 	color: rgb(92, 184, 184);
 }
 
-.build-things {
-	color: rgb(165, 183, 202);
-	font-size: 80px;
-}
-
-.name {
+.dne {
 	color: rgb(240, 234, 255);
 	font-size: 80px;
-}
-
-.bio {
-	color: rgb(165, 183, 202);
-	width: 50%;
-	letter-spacing: 0.5px;
-	line-height: 1.4em;
 }
 
 .noMatch-body {
@@ -71,7 +59,7 @@
 	font-size: 15px;
 }
 
-.code-icon {
+.nm-code-icon {
 	padding-left: 1em;
 	font-size: 100px;
 	color: rgb(38, 170, 170);
