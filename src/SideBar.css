@@ -3,8 +3,8 @@
 	flex-direction: column;
 	justify-content: end;
 	width: 5%;
-	height: 100%;
-	position: absolute;
+	min-height: 100%;
+	position: fixed;
 	left: 0;
 	bottom: 0;
 }
