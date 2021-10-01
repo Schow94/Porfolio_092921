@@ -26,8 +26,8 @@ const NavBar = () => {
 					</Link>
 				</li>
 				<li>
-					<Link className="route-link" to="/work">
-						<span className="nav-num">03. </span> Work
+					<Link className="route-link" to="/photography">
+						<span className="nav-num">03. </span> Photography
 					</Link>
 				</li>
 				<li>

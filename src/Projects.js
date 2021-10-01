@@ -170,6 +170,42 @@ const Projects = () => {
 			<div className="project-body">
 				<SideBar />
 
+				{/* <div>
+					<div className="toolset-container">
+						<h1>What I do</h1>
+						<div className="toolset">
+							<img className="tool-icon" src="./react.png" alt="react-img" />
+							<img className="tool-icon" src="./node.png" alt="node-img" />
+							<img
+								className="tool-icon"
+								src="./express.png"
+								alt="express-img"
+							/>
+							<img className="tool-icon" src="./redux.jpeg" alt="redux-img" />
+							<img
+								className="tool-icon"
+								src="./Postgres.png"
+								alt="postgres-img"
+							/>
+							<img
+								className="tool-icon flask"
+								src="./flask.png"
+								alt="flask-img"
+							/>
+							<img
+								className="tool-icon"
+								src="./react-native.png"
+								alt="rn-img"
+							/>
+							<img
+								className="tool-icon"
+								src="./flutter.png"
+								alt="flutter-img"
+							/>
+							<img className="tool-icon" src="./mongo.png" alt="mongo-img" />
+						</div>
+					</div> */}
+
 				<div className="projects-container">
 					{data.map((x, idx) => {
 						return (
@@ -188,6 +224,7 @@ const Projects = () => {
 				</div>
 			</div>
 		</div>
+		// </div>
 	);
 };
 

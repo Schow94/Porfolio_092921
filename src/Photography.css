@@ -1,0 +1,82 @@
+.Photography {
+	text-align: center;
+	background-color: rgb(15, 25, 43);
+	min-height: 100vh;
+	width: 100vw;
+	top: 0;
+	left: 0;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: rgb(240, 234, 255);
+}
+
+.photos-body {
+	width: 100%;
+	margin-top: 5%;
+	/* min-height: 100%; */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	/* background-color: blue; */
+}
+
+.photos-container {
+	/* height: 100%; */
+	/* background-color: red; */
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.touch-btn {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: 1px solid rgb(52, 219, 219);
+	width: 140px;
+	height: 55px;
+	border-radius: 5%;
+	cursor: pointer;
+	overflow: hidden;
+	outline: none;
+	color: rgb(52, 219, 219);
+	font-weight: 800;
+	margin-top: 5%;
+	font-size: 15px;
+}
+
+.photo-image {
+	width: 400px;
+	border-radius: 10px;
+	margin-top: 1em;
+	margin-left: 1em;
+}
+
+/* ----------------------------- MEDIA QUERIES ----------------------------- */
+/* Screen larger than 13" */
+@media only screen and (min-width: 1439px) {
+	.projects-container {
+		margin-top: 5%;
+	}
+}
+
+/* 13" laptop */
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+	.photos-container {
+		margin-top: 7%;
+	}
+}
+
+/* ipad 9.7 media query */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.photos-container {
+		margin-top: 10%;
+	}
+}

@@ -7,6 +7,7 @@ import Projects from "./Projects";
 // import About from "./About";
 import Contact from "./Contact";
 import BadRoute from "./BadRoute";
+import Photography from "./Photography";
 
 const App = () => {
 	return (
@@ -22,6 +23,9 @@ const App = () => {
 
 				<Route path="/projects">
 					<Projects />
+				</Route>
+				<Route path="/photography">
+					<Photography />
 				</Route>
 
 				<Route path="/contact">
