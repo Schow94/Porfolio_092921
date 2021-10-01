@@ -57,6 +57,9 @@
 .name-email input {
 	width: 50%;
 	border: 0;
+	font-size: 16px;
+	font-family: "Roboto", sans-serif;
+	font-family: "Roboto", sans-serif;
 }
 
 .name-is {
@@ -82,4 +85,37 @@
 	width: 70%;
 	text-align: left;
 	margin-left: 30%;
+}
+
+.email-form input:focus {
+	outline: none !important;
+	border: 1px solid rgb(92, 184, 184);
+	background-color: rgb(15, 25, 43);
+	color: rgb(92, 184, 184);
+	/* filter: drop-shadow(-0.5mm -0.5mm 4mm rgb(73, 169, 207)); */
+}
+
+.email-form textarea:focus {
+	outline: none !important;
+	border: 1px solid rgb(92, 184, 184);
+	background-color: rgb(15, 25, 43);
+	color: rgb(92, 184, 184);
+}
+
+.email-form input:focus::placeholder {
+	color: white;
+}
+
+.email-form textarea:focus::placeholder {
+	color: white;
+}
+
+.subject {
+	font-size: 16px;
+	font-family: "Roboto", sans-serif;
+}
+
+.email-body {
+	font-size: 16px;
+	font-family: "Roboto", sans-serif;
 }

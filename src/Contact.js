@@ -20,11 +20,17 @@ const Contact = () => {
 
 					<form className="email-form">
 						<div className="name-email">
-							<input placeholder="name"></input>
-							<input placeholder="email"></input>
+							<input autoComplete="none" placeholder="name"></input>
+							<input
+								type="text"
+								autoComplete="none"
+								placeholder="email"></input>
 						</div>
-						<input placeholder="subject"></input>
-						<textarea placeholder="message"></textarea>
+						<input
+							autoComplete="none"
+							className="subject"
+							placeholder="subject"></input>
+						<textarea className="email-body" placeholder="message"></textarea>
 						<button className="touch-btn">Send Email</button>
 					</form>
 				</div>
