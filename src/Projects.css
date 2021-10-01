@@ -116,3 +116,26 @@
 	height: 100%;
 	width: 100%;
 }
+
+/* ----------------------------- MEDIA QUERIES ----------------------------- */
+/* Screen larger than 13" */
+@media only screen and (min-width: 1439px) {
+	.projects-container {
+		margin-top: 5%;
+	}
+}
+
+/* 13" laptop */
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+	.projects-container {
+		margin-top: 7%;
+	}
+}
+
+/* ipad 9.7 media query */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.projects-container {
+		margin-top: 10%;
+	}
+}

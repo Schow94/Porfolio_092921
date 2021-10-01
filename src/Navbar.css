@@ -7,7 +7,6 @@
 
 .nav-container {
 	width: 100%;
-	background-color: blue;
 	height: 60px;
 	top: 0;
 	margin: 0;
@@ -16,6 +15,8 @@
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	margin-bottom: 2%;
+	/* background-color: blue; */
 }
 
 ul {
