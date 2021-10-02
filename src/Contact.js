@@ -1,10 +1,58 @@
-import React from "react";
+import React, { useState } from "react";
+import { send } from "emailjs-com";
 
 import NavBar from "./NavBar";
 import SideBar from "./SideBar";
 import "./Contact.css";
 
 const Contact = () => {
+	const [from, setFrom] = useState("");
+	const [msg, setMsg] = useState("");
+	const [senderEmail, setSenderEmail] = useState("");
+
+	const handleSender = (e) => {
+		e.preventDefault();
+		setFrom(e.target.value);
+	};
+
+	const handleSenderEmail = (e) => {
+		e.preventDefault();
+		setSenderEmail(e.target.value);
+	};
+
+	const handleMsg = (e) => {
+		e.preventDefault();
+		setMsg(e.target.value);
+	};
+
+	const clearForm = () => {
+		setFrom("");
+		setMsg("");
+		setSenderEmail("");
+	};
+
+	const handleSubmit = (e) => {
+		e.preventDefault();
+		const params = {
+			from_name: from,
+			to_name: "Stephen",
+			from_email: senderEmail,
+			message: msg,
+			reply_to: senderEmail,
+		};
+
+		// send('SERVICE_ID', 'TEMPLATE_ID', 'EMAIL_PARAMS', 'USER_ID')
+		send(
+			"service_kbavvlh",
+			"template_ta0p39q",
+			params,
+			"user_qTcVZl0NxtqNIjfClck0f"
+		);
+
+		console.log("Submitted");
+		clearForm();
+	};
+
 	return (
 		<div className="App">
 			<NavBar />
@@ -18,19 +66,27 @@ const Contact = () => {
 						<span className="shoot-email"> Shoot me an email!</span>
 					</h1>
 
-					<form className="email-form">
+					<form className="email-form" onSubmit={(e) => handleSubmit(e)}>
 						<div className="name-email">
-							<input autoComplete="none" placeholder="name"></input>
 							<input
 								type="text"
 								autoComplete="none"
-								placeholder="email"></input>
+								placeholder="name"
+								value={from}
+								onChange={(e) => handleSender(e)}></input>
+							<input
+								type="email"
+								autoComplete="none"
+								placeholder="email"
+								value={senderEmail}
+								onChange={(e) => handleSenderEmail(e)}></input>
 						</div>
-						<input
-							autoComplete="none"
-							className="subject"
-							placeholder="subject"></input>
-						<textarea className="email-body" placeholder="message"></textarea>
+						<textarea
+							className="email-body"
+							placeholder="message"
+							value={msg}
+							onChange={(e) => handleMsg(e)}></textarea>
+
 						<button className="touch-btn">Send Email</button>
 					</form>
 				</div>

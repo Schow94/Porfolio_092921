@@ -10,51 +10,51 @@ const Image = React.lazy(() => import("./Image"));
 
 const images = [
 	{
-		url: "./amsterdam.jpg",
+		url: "./amsterdam.webp",
 		alt: "amsterdam",
 	},
 	{
-		url: "./arch.jpg",
+		url: "./arch.webp",
 		alt: "arch",
 	},
 	{
-		url: "./bldg.jpg",
+		url: "./bldg.webp",
 		alt: "bldg",
 	},
 	{
-		url: "./cat.jpg",
+		url: "./cat.webp",
 		alt: "cat",
 	},
 	{
-		url: "./goldenGate.jpg",
+		url: "./goldenGate.webp",
 		alt: "goldenGate",
 	},
 	{
-		url: "./versailles.jpg",
+		url: "./versailles.webp",
 		alt: "versailles",
 	},
 	{
-		url: "./goldenGate2.jpg",
+		url: "./goldenGate2.webp",
 		alt: "goldenGate2",
 	},
 	{
-		url: "./versailles2.jpg",
+		url: "./versailles2.webp",
 		alt: "versailles2",
 	},
 	{
-		url: "./waikiki.jpg",
+		url: "./waikiki.webp",
 		alt: "waikiki",
 	},
 	{
-		url: "./yosemite.jpg",
+		url: "./yosemite.webp",
 		alt: "yosemite",
 	},
 	{
-		url: "./zion2.jpg",
+		url: "./zion2.webp",
 		alt: "zion2",
 	},
 	{
-		url: "./zion.jpg",
+		url: "./zion.webp",
 		alt: "zion",
 	},
 ];
