@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import { SiInstagram } from "react-icons/si";
 import { ImGithub } from "react-icons/im";
@@ -28,7 +29,9 @@ const SideBar = () => {
 				</a>
 			</li>
 			<li className="icon">
-				<SiGmail />
+				<Link to="contact">
+					<SiGmail />
+				</Link>
 			</li>
 		</ul>
 	);

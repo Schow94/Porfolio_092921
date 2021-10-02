@@ -1,7 +1,12 @@
-import React from "react";
+import React, { Suspense } from "react";
+
 import SideBar from "./SideBar";
 import NavBar from "./NavBar";
+import Loading from "./Loading";
+
 import "./Photography.css";
+
+const Image = React.lazy(() => import("./Image"));
 
 const images = [
 	{
@@ -64,12 +69,15 @@ const Photography = () => {
 
 				<div className="photos-container">
 					{images.map((x, idx) => {
-						return <img className="photo-image" src={x.url} alt={x.alt} />;
+						return (
+							<Suspense fallback={<Loading />}>
+								<Image image={x} key={idx} />
+							</Suspense>
+						);
 					})}
 				</div>
 			</div>
 		</div>
-		// </div>
 	);
 };
 
