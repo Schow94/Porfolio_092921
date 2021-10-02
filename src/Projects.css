@@ -31,6 +31,7 @@
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
+	padding-bottom: 1em;
 }
 
 .touch-btn {
@@ -154,7 +155,6 @@
 }
 
 /* 13" laptop */
-
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
 	.projects-container {
 		margin-top: 7%;
@@ -165,5 +165,13 @@
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 	.projects-container {
 		margin-top: 10%;
+	}
+}
+
+/* iPhone X media query */
+@media only screen and (max-width: 500px) {
+	.projects-container {
+		margin-top: 15%;
+		margin-left: 10%;
 	}
 }

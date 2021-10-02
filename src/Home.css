@@ -61,7 +61,6 @@
 	width: 70%;
 	margin-left: 5%;
 	text-align: left;
-	/* background-color: purple; */
 }
 
 .touch-btn {
@@ -121,5 +120,37 @@
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 	.name {
 		font-size: 40px;
+	}
+}
+
+/* iPhone X media query */
+@media only screen and (max-width: 500px) {
+	.name-is {
+		font-size: 20px;
+		margin-bottom: 2em;
+	}
+	.name {
+		font-size: 35px;
+		margin-top: 0.3em;
+	}
+	.code-icon {
+		font-size: 35px;
+	}
+	.build-things {
+		font-size: 35px;
+		margin-top: 1em;
+	}
+	.bio {
+		margin-top: 5em;
+		font-size: 14px;
+		margin-left: 0.5em;
+		margin-right: 0.5em;
+	}
+	.touch-btn {
+		margin-left: 0.5em;
+		margin-right: 0.5em;
+	}
+	.bio-container {
+		width: 60%;
 	}
 }

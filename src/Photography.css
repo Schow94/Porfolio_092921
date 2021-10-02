@@ -15,18 +15,16 @@
 
 .photos-body {
 	width: 100%;
-	margin-top: 5%;
 	/* min-height: 100%; */
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	/* background-color: blue; */
+	padding-bottom: 1em;
 }
 
 .photos-container {
 	/* height: 100%; */
-	/* background-color: red; */
 	width: 90%;
 	display: flex;
 	flex-direction: row;
@@ -61,22 +59,49 @@
 /* ----------------------------- MEDIA QUERIES ----------------------------- */
 /* Screen larger than 13" */
 @media only screen and (min-width: 1439px) {
-	.projects-container {
+	.photos-container {
+		margin-top: 0%;
+	}
+	.photos-container {
 		margin-top: 5%;
+	}
+	.photo-image {
+		width: 650px;
 	}
 }
 
 /* 13" laptop */
-
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
 	.photos-container {
-		margin-top: 7%;
+		margin-top: 6%;
+	}
+	.photos-body {
+		margin-top: 2%;
+	}
+	.photo-image {
+		width: 550px;
 	}
 }
 
 /* ipad 9.7 media query */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 	.photos-container {
-		margin-top: 10%;
+		margin-top: 8%;
+	}
+	.photos-body {
+		margin-top: 2%;
+	}
+	.photo-image {
+		width: 600px;
+	}
+}
+
+/* iPhone X media query */
+@media only screen and (max-width: 500px) {
+	.photos-body {
+		margin-top: 12%;
+	}
+	.photo-image {
+		width: 280px;
 	}
 }

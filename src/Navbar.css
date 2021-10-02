@@ -16,12 +16,10 @@
 	flex-direction: row;
 	align-items: center;
 	margin-bottom: 2%;
-	/* background-color: blue; */
 }
 
-ul {
+.nav-list {
 	list-style-type: none;
-	/* background-color: red; */
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -61,4 +59,46 @@ ul {
 
 .route-link:hover {
 	color: rgb(52, 219, 219);
+}
+
+/* ---------------------------------- MEDIA QUERIES ---------------------------------- */
+/* Screen larger than 13" */
+@media only screen and (min-width: 1439px) {
+}
+
+/* 13" laptop */
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+}
+
+/* ipad 9.7 media query */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.nav-list {
+		width: 85%;
+	}
+}
+
+/* iPhone X media query */
+@media only screen and (max-width: 500px) {
+	.nav-list {
+		width: 90%;
+	}
+
+	.nav-list li span {
+		font-size: 10px;
+	}
+
+	.nav-list li {
+		font-size: 10px;
+	}
+	.resume-btn {
+		width: 55px;
+		height: 29px;
+		font-size: 10px;
+		border-radius: 15x;
+	}
+
+	.s-icon {
+		width: 30px;
+		height: 30px;
+	}
 }
