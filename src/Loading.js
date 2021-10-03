@@ -3,8 +3,8 @@ import "./Loading.css";
 
 const Loading = () => {
 	return (
-		<span class="loader">
-			<span class="loader-inner"></span>
+		<span className="loader">
+			<span className="loader-inner"></span>
 		</span>
 	);
 };

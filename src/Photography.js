@@ -10,51 +10,51 @@ const Image = React.lazy(() => import("./Image"));
 
 const images = [
 	{
-		url: "./amsterdam.webp",
+		url: "./amsterdam-1.webp",
 		alt: "amsterdam",
 	},
 	{
-		url: "./arch.webp",
+		url: "./arch-1.webp",
 		alt: "arch",
 	},
 	{
-		url: "./bldg.webp",
+		url: "./bldg-1.webp",
 		alt: "bldg",
 	},
 	{
-		url: "./cat.webp",
+		url: "./cat-1.webp",
 		alt: "cat",
 	},
 	{
-		url: "./goldenGate.webp",
+		url: "./goldenGate-1.webp",
 		alt: "goldenGate",
 	},
 	{
-		url: "./versailles.webp",
+		url: "./versailles-1.webp",
 		alt: "versailles",
 	},
 	{
-		url: "./goldenGate2.webp",
+		url: "./goldenGate2-1.webp",
 		alt: "goldenGate2",
 	},
 	{
-		url: "./versailles2.webp",
+		url: "./versailles2-1.webp",
 		alt: "versailles2",
 	},
 	{
-		url: "./waikiki.webp",
+		url: "./waikiki-1.webp",
 		alt: "waikiki",
 	},
 	{
-		url: "./yosemite.webp",
+		url: "./yosemite-1.webp",
 		alt: "yosemite",
 	},
 	{
-		url: "./zion2.webp",
+		url: "./zion2-1.webp",
 		alt: "zion2",
 	},
 	{
-		url: "./zion.webp",
+		url: "./zion-1.webp",
 		alt: "zion",
 	},
 ];
@@ -70,8 +70,8 @@ const Photography = () => {
 				<div className="photos-container">
 					{images.map((x, idx) => {
 						return (
-							<Suspense fallback={<Loading />}>
-								<Image image={x} key={idx} />
+							<Suspense fallback={<Loading />} key={idx}>
+								<Image image={x} />
 							</Suspense>
 						);
 					})}

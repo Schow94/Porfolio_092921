@@ -12,7 +12,7 @@ const data = [
 	{
 		name: "Weather Widget",
 		image: "https://schow94.github.io/Portfolio_new/image_weather.png",
-		url: "https://schow94.github.io/Weather/",
+		link: "https://schow94.github.io/Weather/",
 		description: "Weather widget built in React with OpenWeather API",
 		lanuages: ["React", "Open Weather API", "Geolocation"],
 	},
@@ -26,7 +26,7 @@ const data = [
 	{
 		name: "Nordstrom Clone",
 		image: "https://schow94.github.io/Portfolio_new/image_shoppingCart.png",
-		url: "https://schow94.github.io/Redux-ShoppingCart/",
+		link: "https://schow94.github.io/Redux-ShoppingCart/",
 		description: "Nordstrom Clone",
 		lanuages: ["React", "Material UI"],
 	},
@@ -39,7 +39,7 @@ const data = [
 	},
 	{
 		name: "Classroom Management",
-		url: "https://schow94.github.io/Magnitude-ReactAssignment/",
+		link: "https://schow94.github.io/Magnitude-ReactAssignment/",
 		image: "https://schow94.github.io/Portfolio_new/image_magnitude.png",
 		description: "Classroom Management Tool built for job application",
 		lanuages: ["React ", "Material UI"],
@@ -77,7 +77,7 @@ const data = [
 	},
 	{
 		name: "WiFree",
-		url: "https://schow94.github.io/WifiApp-Hooks/",
+		link: "https://schow94.github.io/WifiApp-Hooks/",
 		image: "https://schow94.github.io/Portfolio_new/image_wifree.png",
 		description: "Find coffee shops & cafes with free wifi",
 		lanuages: ["React", "Yelp API", "Geolocation", "Google Maps API"],
@@ -156,7 +156,7 @@ const data = [
 	{
 		name: "To do List",
 		image: "https://schow94.github.io/Portfolio_new/image_reactNative2.png",
-		url: "",
+		link: "",
 		description: "React Native Todo List",
 		lanuages: ["React Native", "Expo"],
 	},
@@ -209,8 +209,8 @@ const Projects = () => {
 				<div className="projects-container">
 					{data.map((x, idx) => {
 						return (
-							<div className="project">
-								<a key={idx} className="link" href={x.link} target="_blank">
+							<div className="project" key={idx}>
+								<a className="link" href={x.link} target="_blank">
 									<img className="project-image" src={x.image} alt={x.image} />
 
 									<div className="project-hover">

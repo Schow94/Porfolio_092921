@@ -26,3 +26,26 @@
 .icon a:hover {
 	color: rgb(92, 184, 184);
 }
+
+/* ----------------------------- MEDIA QUERIES ----------------------------- */
+/* Screen larger than 13" */
+@media only screen and (min-width: 1439px) {
+}
+
+/* 13" laptop */
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+}
+
+/* ipad 9.7 media query */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* iPhone X media query */
+@media only screen and (max-width: 500px) {
+	.sidebar {
+		width: 9%;
+	}
+	.icon {
+		font-size: 15px;
+	}
+}
